@@ -1,5 +1,5 @@
-import dbConnect from '@/lib/mongodb';
-import User from '@/models/User';
+import dbConnect from '../../../../lib/mongodb';
+import User from '../../../../models/User';
 import { Types } from 'mongoose';
 
 export async function GET(request, { params }) {
